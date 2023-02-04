@@ -1,0 +1,135 @@
+.mario{
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+
+    /* box-shadow: offset-x offset-y blur spread color;*/
+    /*
+    x (positivo) = derecha -> 20px
+    x (negativo) = izquierda -> 20px
+
+    y (positivo) = abajo -> 20px
+    y (negativo) = arriba -> 20px
+    */
+    /* box-shadow: 0 0 10px 2px hsl(270, 100%, 40%, .9); */
+}
+
+
+/*
+#f00 -> rojo
+#000 -> negro
+#974807 -> cafe
+#fac090 -> hueso
+#0070c0 -> azul
+#ffff00 -> amarillo
+*/
+.mario{
+    margin: 70px 150px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px; /* Cada 1em equivale el valor de 20px*/
+    background-color: #f00;
+
+    box-shadow: 
+    /* gorra primera fila*/
+    1em 0 #f00, 2em 0 #f00,
+    3em 0 #f00, 4em 0 #f00,
+    5em 0 #f00, 
+    /* gorra segunda fila*/
+    -1em 1em #f00, 0 1em #f00,
+    1em 1em #f00, 2em 1em #f00,
+    3em 1em #f00, 4em 1em #f00,
+    5em 1em #f00, 6em 1em #f00,
+    7em 1em #f00, 8em 1em #f00,
+    /* cara primera fila*/
+    -1em 2em #974807, 0 2em #974807,
+    1em 2em #974807, 2em 2em #fac090,
+    3em 2em #fac090, 4em 2em #fac090,
+    5em 2em #000, 6em 2em #fac090,
+    /* cara segunda fila */
+    -2em 3em #974807, -1em 3em #fac090,
+    0 3em #974807, 1em 3em #fac090,
+    2em 3em #fac090, 3em 3em #fac090,
+    4em 3em #fac090, 5em 3em #000,
+    6em 3em #fac090, 7em 3em #fac090,
+    8em 3em #fac090,
+    /* cara tercera fila */
+    -2em 4em #974807, -1em 4em #fac090,
+    0 4em #974807, 1em 4em #974807,
+    2em 4em #fac090, 3em 4em #fac090,
+    4em 4em #fac090, 5em 4em #fac090,
+    6em 4em #000, 7em 4em #fac090,
+    8em 4em #fac090, 9em 4em #fac090,
+    /* cara cuarta fila */
+    -2em 5em #974807, -1em 5em #974807,
+    0 5em #fac090, 1em 5em #fac090,
+    2em 5em #fac090, 3em 5em #fac090,
+    4em 5em #fac090, 5em 5em #000,
+    6em 5em #000, 7em 5em #000,
+    8em 5em #000,
+    /* cara quinta fila */
+    0 6em #fac090, 1em 6em #fac090,
+    2em 6em #fac090, 3em 6em #fac090,
+    4em 6em #fac090, 5em 6em #fac090,
+    6em 6em #fac090,
+    /* cuerpo primera fila */
+    -1em 7em #f00, 0 7em #f00,
+    1em 7em #0070c0, 2em 7em #f00,
+    3em 7em #f00, 4em 7em #f00,
+    5em 7em #0070c0, 6em 7em #f00,
+    7em 7em #f00,
+    /* cuerpo segunda fila */
+    -2em 8em #f00, -1em 8em #f00,
+    0 8em #f00, 1em 8em #0070c0,
+    2em 8em #f00, 3em 8em #f00,
+    4em 8em #f00, 5em 8em #0070c0,
+    6em 8em #f00, 7em 8em #f00,
+    8em 8em #f00,
+    /* cuerpo tercera fila */
+    -3em 9em #f00, -2em 9em #f00,
+    -1em 9em #f00, 0 9em #f00,
+    1em 9em #0070c0, 2em 9em #0070c0,
+    3em 9em #0070c0, 4em 9em #0070c0,
+    5em 9em #0070c0, 6em 9em #f00,
+    7em 9em #f00, 8em 9em #f00,
+    9em 9em #f00,
+    /* cuerpo cuarta fila */
+    -3em 10em #fac090, -2em 10em #fac090,
+    -1em 10em #f00, 0 10em #0070c0,
+    1em 10em #ffff00, 2em 10em #0070c0,
+    3em 10em #0070c0, 4em 10em #0070c0,
+    5em 10em #ffff00, 6em 10em #0070c0,
+    7em 10em #f00, 8em 10em #fac090,
+    9em 10em #fac090,
+    /* cuerpo quinta fila */
+    -3em 11em #fac090, -2em 11em #fac090,
+    -1em 11em #fac090, 0 11em #0070c0,
+    1em 11em #0070c0, 2em 11em #0070c0,
+    3em 11em #0070c0, 4em 11em #0070c0,
+    5em 11em #0070c0, 6em 11em #0070c0,
+    7em 11em #fac090, 8em 11em #fac090,
+    9em 11em #fac090,
+    /* cuerpo sexta fila */
+    -3em 12em #fac090, -2em 12em #fac090,
+    -1em 12em #0070c0, 0 12em #0070c0,
+    1em 12em #0070c0, 2em 12em #0070c0,
+    3em 12em #0070c0, 4em 12em #0070c0,
+    5em 12em #0070c0, 6em 12em #0070c0,
+    7em 12em #0070c0, 8em 12em #fac090,
+    9em 12em #fac090,
+    /* cuerpo septima fila */
+    -1em 13em #0070c0, 0 13em #0070c0,
+    1em 13em #0070c0, 5em 13em #0070c0,
+    6em 13em #0070c0, 7em 13em #0070c0,
+    /* pies primera fila */
+    -2em 14em #974807, -1em 14em #974807,
+    0 14em #974807, 6em 14em #974807,
+    7em 14em #974807, 8em 14em #974807,
+    /* pies segunda fila */
+    -3em 15em #974807, -2em 15em #974807,
+    -1em 15em #974807, 0 15em #974807,
+    6em 15em #974807, 7em 15em #974807,
+    8em 15em #974807, 8em 15em #974807,
+    9em 15em #974807
+}
+
